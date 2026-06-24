@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starbucks Coffee Club</title>
+    <!-- Chargement des polices et des icônes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icônes Font Awesome locales -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Barre de navigation -->
+    <nav>
+      <div class="logo">
+        <img src="images/starbucks-official-logo.png" alt="Starbucks" class="nav-logo-img">Starbucks Coffee Club
+      </div>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="quiz.html">My Coffee Match</a></li>
+        <li><a href="formules.html">Nos formules</a></li>
+        <li><a href="rewards.html">Rewards</a></li>
+        <li><a href="rse.html">RSE & Refill</a></li>
+        <li><a href="dashboard.html">Espace client</a></li>
+        <li><a href="office.html">Offre entreprise</a></li>
+      </ul>
+    </nav>
+    <!-- Contenu principal -->
+    <main>
+    <!-- Hero section with montage interactif rapide -->
+    <section class="hero hero-dyhia">
+      <div class="hero-montage" aria-label="Montage interactif des offres Starbucks">
+        <div class="montage-track montage-track-one">
+          <img src="images/products/white-mocha-dolce-gusto-eu.png" alt="White Mocha Dolce Gusto">
+          <img src="images/products/white-mocha-dolce-gusto-jp.png" alt="White Mocha capsules">
+          <img src="images/products/blonde-espresso-roast-beans.png" alt="Blonde Espresso Roast grains">
+          <img src="images/products/espresso-roast-dark-beans-display.png" alt="Espresso Roast Dark grains">
+          <img src="images/products/blonde-espresso-roast-multipack.png" alt="Blonde Espresso multipack">
+        </div>
+        <div class="montage-track montage-track-two">
+          <img src="images/products/espresso-roast-dark-beans-bag.png" alt="Espresso Roast Dark sachet">
+          <img src="images/products/blonde-espresso-roast-multipack.png" alt="Lot Blonde Espresso">
+          <img src="images/products/white-mocha-dolce-gusto-eu.png" alt="Capsules Starbucks White Mocha">
+          <img src="images/products/espresso-roast-dark-beans-display.png" alt="Café en grains Starbucks">
+        </div>
+        <div class="montage-orbit">
+          <img src="images/products/white-mocha-dolce-gusto-eu.png" alt="Offre capsules">
+          <img src="images/products/blonde-espresso-roast-multipack.png" alt="Offre grains">
+          <img src="images/products/espresso-roast-dark-beans-display.png" alt="Offre espresso">
+        </div>
+      </div>
+
+      <div class="hero-slogan-card">
+        <img src="images/starbucks-slogan-dyhia.png" alt="Starbucks plus qu’un café, votre chez-vous">
+      </div>
+
+      <div class="hero-content hero-content-offset">
+        <h1>Starbucks Coffee Club</h1>
+        <p>
+          Votre café Starbucks préféré, en capsules ou en grains, livré selon
+          vos goûts, votre machine et votre rythme.
+        </p>
+        <div class="buttons">
+          <a href="quiz.html" class="btn btn-primary">Créer mon abonnement</a>
+          <a href="formules.html" class="btn btn-secondary">Découvrir les formules</a>
+        </div>
+      </div>
+    </section>
+      <section class="container">
+        <h2>Nos offres</h2>
+        <div class="offers">
+          <div class="offer-card visual-card">
+            <img src="images/products/white-mocha-dolce-gusto-eu.png" alt="White Mocha capsules">
+            <h3>Capsules compatibles</h3>
+            <p>
+              Capsules Starbucks® compatibles Nespresso Original®, pour des
+              expressos riches et variés.
+            </p>
+            <a href="formules.html" class="btn btn-primary">Explorer</a>
+          </div>
+          <div class="offer-card visual-card">
+            <img src="images/products/espresso-roast-dark-beans-display.png" alt="Café en grains Starbucks">
+            <h3>Café en grains</h3>
+            <p>
+              Savourez nos cafés en grains fraîchement torréfiés, à moudre chez
+              vous selon vos envies.
+            </p>
+            <a href="formules.html" class="btn btn-primary">Explorer</a>
+          </div>
+          <div class="offer-card visual-card">
+            <img src="images/products/blonde-espresso-roast-multipack.png" alt="Coffee Duo Starbucks">
+            <h3>Coffee Duo</h3>
+            <p>
+              L’alliance parfaite : capsules et grains pour varier les plaisirs
+              selon vos machines.
+            </p>
+            <a href="formules.html" class="btn btn-primary">Explorer</a>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <h2>Les bénéfices du Coffee Club</h2>
+        <div class="benefits">
+          <div class="benefit">
+            <i class="fas fa-sliders-h"></i>
+            <h4>Personnalisation</h4>
+            <p>Choisissez vos cafés selon vos goûts et votre matériel.</p>
+          </div>
+          <div class="benefit">
+            <i class="fas fa-sync-alt"></i>
+            <h4>Flexibilité</h4>
+            <p>Modifiez ou mettez en pause votre abonnement à tout moment.</p>
+          </div>
+          <div class="benefit">
+            <i class="fas fa-star"></i>
+            <h4>Starbucks Rewards</h4>
+            <p>Accumulez des étoiles et profitez de récompenses exclusives.</p>
+          </div>
+          <div class="benefit">
+            <i class="fas fa-leaf"></i>
+            <h4>Livraison responsable</h4>
+            <p>Des emballages optimisés et un acheminement bas carbone.</p>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <div class="how-it-works">
+          <h2>Comment ça marche ?</h2>
+          <div class="steps">
+            <div class="step">
+              <div class="number">1</div>
+              <p>Je choisis ma machine et mes goûts.</p>
+            </div>
+            <div class="step">
+              <div class="number">2</div>
+              <p>Starbucks me recommande une formule.</p>
+            </div>
+            <div class="step">
+              <div class="number">3</div>
+              <p>Je reçois mon café.</p>
+            </div>
+            <div class="step">
+              <div class="number">4</div>
+              <p>Je modifie ou mets en pause mon abonnement à tout moment.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>Prototype académique fictif — Starbucks Coffee Club</footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Offre entreprise – Starbucks Coffee Club</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="images/starbucks-official-logo.png" alt="Starbucks" class="nav-logo-img">Starbucks Coffee Club
+      </div>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="quiz.html">My Coffee Match</a></li>
+        <li><a href="formules.html">Nos formules</a></li>
+        <li><a href="rewards.html">Rewards</a></li>
+        <li><a href="rse.html">RSE & Refill</a></li>
+        <li><a href="dashboard.html">Espace client</a></li>
+        <li><a href="office.html">Offre entreprise</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="page-showcase">
+        <div><h1>Office Coffee</h1><p>Une sélection Starbucks pensée pour les équipes.</p></div>
+        <img src="images/products/white-mocha-dolce-gusto-eu.png" alt="Office Coffee">
+      </section>
+      <section class="container office-page">
+        <h2>Office Coffee</h2>
+        <p>
+          Une solution café premium pour les TPE, PME, agences, cabinets et
+          espaces de coworking. Offrez à vos collaborateurs et clients la
+          qualité Starbucks au bureau.
+        </p>
+        <div class="office-features">
+          <div class="office-feature">
+            <i class="fas fa-capsules"></i>
+            <h4>Capsules, grains ou duo</h4>
+            <p>Choisissez le format qui convient à votre équipe.</p>
+          </div>
+          <div class="office-feature">
+            <i class="fas fa-shipping-fast"></i>
+            <h4>Livraison planifiée</h4>
+            <p>Définissez une fréquence et recevez vos cafés sans y penser.</p>
+          </div>
+          <div class="office-feature">
+            <i class="fas fa-file-invoice-dollar"></i>
+            <h4>Facturation simplifiée</h4>
+            <p>Un seul devis et une facturation centralisée pour toute la
+            entreprise.</p>
+          </div>
+          <div class="office-feature">
+            <i class="fas fa-user-tie"></i>
+            <h4>Gestionnaire dédié</h4>
+            <p>Bénéficiez d’un interlocuteur pour suivre votre abonnement.</p>
+          </div>
+          <div class="office-feature">
+            <i class="fas fa-chart-line"></i>
+            <h4>Tableau de suivi</h4>
+            <p>Accédez à des statistiques de consommation pour optimiser vos
+            commandes.</p>
+          </div>
+          <div class="office-feature">
+            <i class="fas fa-recycle"></i>
+            <h4>Tri & recyclage</h4>
+            <p>Nos équipes vous accompagnent pour un tri responsable en
+            entreprise.</p>
+          </div>
+        </div>
+        <h3>Demande de devis</h3>
+        <form id="office-form" class="office-form">
+          <label for="company">Nom de l’entreprise</label>
+          <input type="text" id="company" name="company" required />
+          <label for="contact">Nom et prénom</label>
+          <input type="text" id="contact" name="contact" required />
+          <label for="email">Adresse e‑mail</label>
+          <input type="email" id="email" name="email" required />
+          <label for="phone">Numéro de téléphone</label>
+          <input type="tel" id="phone" name="phone" />
+          <label for="message">Votre demande</label>
+          <textarea id="message" name="message" rows="4" placeholder="Décrivez votre besoin…"></textarea>
+          <button type="submit" class="btn btn-primary">Envoyer ma demande</button>
+        </form>
+      </section>
+    </main>
+    <footer>Prototype académique fictif — Starbucks Coffee Club</footer>
+    <script src="script.js"></script>
+  </body>
+</html>

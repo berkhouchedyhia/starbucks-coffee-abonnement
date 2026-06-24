@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz – Starbucks Coffee Club</title>
+    <!-- Polices et icônes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icônes Font Awesome locales pour éviter les CDN bloqués -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="logo">
+        <img src="images/starbucks-official-logo.png" alt="Starbucks" class="nav-logo-img">Starbucks Coffee Club
+      </div>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="quiz.html">My Coffee Match</a></li>
+        <li><a href="formules.html">Nos formules</a></li>
+        <li><a href="rewards.html">Rewards</a></li>
+        <li><a href="rse.html">RSE & Refill</a></li>
+        <li><a href="dashboard.html">Espace client</a></li>
+        <li><a href="office.html">Offre entreprise</a></li>
+      </ul>
+    </nav>
+    <!-- Contenu principal -->
+    <main>
+      <section class="page-showcase">
+        <div><h1>My Coffee Match</h1><p>Réponds au quiz et trouve le café qui correspond à ton rythme.</p></div>
+        <img src="images/products/white-mocha-dolce-gusto-jp.png" alt="My Coffee Match">
+      </section>
+      <section class="container">
+        <div class="quiz-container quiz">
+          <!-- Barre de progression -->
+          <div class="progress-bar"><div style="width: 0%"></div></div>
+          <!-- Contenu du quiz -->
+          <div class="quiz-content">
+            <div class="question">
+              <h3 class="question-text"></h3>
+              <div class="options"></div>
+            </div>
+            <div class="navigation-buttons">
+              <button class="btn btn-secondary btn-prev">Précédent</button>
+              <button class="btn btn-primary btn-next">Suivant</button>
+            </div>
+          </div>
+          <!-- Résultat du quiz -->
+          <div class="result" style="display: none">
+            <h3>Résultat de votre Coffee Match</h3>
+            <p>
+              Nous avons créé une sélection adaptée à vos habitudes. Voici nos
+              recommandations :
+            </p>
+            <p>
+              <strong>Formule recommandée :</strong>
+              <span class="rec-plan"></span>
+            </p>
+            <div class="recommendation-section">
+              <p><strong>Cafés recommandés :</strong></p>
+              <div class="rec-coffees"></div>
+            </div>
+            <a href="formules.html" class="btn btn-primary"
+              >Choisir ma formule</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>Prototype académique fictif — Starbucks Coffee Club</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
